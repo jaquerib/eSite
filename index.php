@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="recursos/css/estilo.css">
     <title>Curso  PHP</title>
 </head>
 <body>
@@ -91,7 +91,7 @@
         </nav>
     </main>
     <footer class="rodape"> 
-        COD3R & ALUNOS 2020
+        COD3R & ALUNOS <?= date('Y'); ?>
     </footer>
 </body>
 </html>
