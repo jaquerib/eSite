@@ -13,13 +13,13 @@
     </header>
     <main class="principal">
         <div class="conteudo">
-            <div class="modulos">
+        <nav class="modulos">
             <div class="modulo verde">
-                <h3>Modulo 01</h3>
+                <h3>Básico</h3>
                 <ul>
                     <li><a href="exercicio.php">Exercício A</a></li>
                     <li><a href="#">Exercício B</a></li>
-                    <li><a href="#">Exercício C</a></li>
+                    <li><a href="desafio.php">Exercício C</a></li>
                 </ul>
             </div>
         
@@ -87,8 +87,8 @@
                     <li><a href="#">Exercício C</a></li>
                 </ul>
             </div>
-        </div>
         </nav>
+        </div>
     </main>
     <footer class="rodape"> 
         COD3R & ALUNOS <?= date('Y'); ?>
